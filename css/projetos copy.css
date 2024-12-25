@@ -1,0 +1,113 @@
+.projeto {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+  }
+  
+.projeto.subtitulo{
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+  .projeto-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .projeto-titulo a {
+    color: inherit; /* Usa a cor do título */
+    text-decoration: none; /* Remove o sublinhado padrão */
+  }
+  
+  .projeto-titulo a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  }
+  
+  .subtituloo {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .subdescricao {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-top: 10px;
+    line-height: 1.6;
+  }
+  .projeto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .projeto-item {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .projeto-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projeto-titulo {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .projeto-descricao {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #525252;
+    margin-bottom: 15px;
+  }
+  
+  .projeto-tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .projeto-tecnologias li {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+  }
+  
+  @media (max-width: 600px) {
+    .projeto {
+      padding: 20px 10px;
+    }
+  
+    .projeto .subtitulo {
+      font-size: 1.5rem;
+    }
+  
+    .projeto-item {
+      padding: 15px;
+    }
+  }
+  button {
+    background-color: #2c3e50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem bordas */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Alinhar inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 5px 2px; /* Margem entre os botões */
+    cursor: pointer; /* Mostrar cursor de "mãozinha" */
+    border-radius: 5px; /* Cantos arredondados */
+  }
+  
+  button:hover {
+    background-color: #2c3e50; /* Cor ao passar o mouse */
+  }
+  
