@@ -106,3 +106,20 @@
     grid-template-columns: 1fr; /* Muda o layout das colunas para uma única coluna em telas menores que 400px */
   }
 }
+button {
+  background-color: #4CAF50; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Sem bordas */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Centralizar texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Alinhar inline */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 5px 2px; /* Margem entre os botões */
+  cursor: pointer; /* Mostrar cursor de "mãozinha" */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+button:hover {
+  background-color: #45a049; /* Cor ao passar o mouse */
+}
